@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Default</title>
+  <meta name="description" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="fonts/stylesheet.css" />
+  <!-- Fonts END -->
+
+  <!-- Libs -->
+  <link rel="stylesheet" href="libs/nice-select/nice-select.css" />
+  <link rel="stylesheet" href="libs/swiper/swiper.min.css" />
+  <link rel="stylesheet" href="libs/ionRangeSlider/ion.rangeSlider.css" />
+  <link rel="stylesheet" href="libs/fancybox/fancybox.css" />
+  <!-- Libs END -->
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/grid.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+  <div class="wrapper fx-column">
+
+    <!-- Header -->
+
+    <header class="header speed">
+      <div class="container"> 
+
+        <!-- Top -->
+
+        <div class="header__top fx align-center">
+          <div class="logo">
+            <a href="index.html" class="fx align-center">
+              <span class="logo__big blue">РИК</span>
+              <span class="logo__small"><b class="blue">р</b>егиональная <b class="blue">инвест</b>иционная <b class="blue">к</b>омпания</span>
+            </a>
+          </div>
+          <h1 class="header__text">Каталог земельных участков <br />и коммерческой недвижимости по всей России</h1>
+          <div class="header__btns fx align-center">
+            <button class="search-open"></button>
+            <button class="navbar-toggle">
+              <span class="icon-bar speed"></span>
+              <span class="icon-bar speed"></span>
+              <span class="icon-bar speed"></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Bot -->
+
+        <div class="header__bot fx align-center fx-between">
+          <nav class="nav">
+            <ul class="nav__list fx">
+              <li class="nav__item"><a href="#" class="nav__link nav__link--active">Каталог</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Услуги</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Новинки</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">О проекте</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+            </ul>
+            <div class="relations fx align-center">
+              <div class="relations__item relations__item--tel"><a href="tel:88005553535">8 800 555-35-35</a></div>
+              <div class="relations__item relations__item--btn"><a href="#" class="btn btn--blue open-modal-bell">Заказать звонок</a></div>
+            </div>
+            <p class="nav__text text-center">Каталог земельных участков <br />и коммерческой недвижимости по всей России</p>
+          </nav>
+          <form action="#" class="search">
+            <label class="search__field"><input type="text" placeholder="Поиск" /></label>
+            <button class="search__btn"></button>
+          </form>
+        </div>
+
+      </div>
+    </header>
+    
+    <!-- Main -->
+    
+    <main class="main">
+
+      <!-- Catalog -->
+
+      <section class="catalog">
+        <div class="container">
+
+          <!-- Title -->
+
+          <div class="title title--border">
+            <h2 class="title__h2"><span>Каталог</span></h2>
+          </div>
+
+          <!-- Row -->
+
+          <div class="row fx fx-wrap catalog__row">
+
+            <!-- Col -->
+
+            <div class="col-3">
+              <div class="filter block-bg block-bg--left">
+                <button class="filter__close"></button>
+                <div class="filter__item filter__item--open">
+                  <p class="filter__title">ТИП</p>
+                  <div class="filter__body" style="display: block;">
+                    <div class="check">
+                      <label class="check__item">
+                        <input type="checkbox" name="filter" checked="checked" />
+                        <span class="check__mark"></span>
+                        <span class="check__txt">Покупка</span>
+                      </label>
+                      <label class="check__item">
+                        <input type="checkbox" name="filter" />
+                        <span class="check__mark"></span>
+                        <span class="check__txt">Аренда</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__item filter__item--open">
+                  <p class="filter__title">Объект</p>
+                  <div class="filter__body" style="display: block;">
+                    <div class="check">
+                      <label class="check__item">
+                        <input type="checkbox" name="filter" />
+                        <span class="check__mark"></span>
+                        <span class="check__txt">Земельные участки</span>
+                      </label>
+                      <label class="check__item">
+                        <input type="checkbox" name="filter" />
+                        <span class="check__mark"></span>
+                        <span class="check__txt">Коммерческая недвижимость</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__item filter__item--open">
+                  <p class="filter__title">назначение</p>
+                  <div class="filter__body" style="display: block;">
+                    <div class="check">
+                      <label class="check__item">
+                        <input type="checkbox" name="filter" />
+                        <span class="check__mark"></span>
+                        <span class="check__txt">Сельское хозяйство</span>
+                      </label>
+                      <label class="check__item">
+                        <input type="checkbox" name="filter" />
+                        <span class="check__mark"></span>
+                        <span class="check__txt">Промышленное назначение</span>
+                      </label>
+                      <label class="check__item">
+                        <input type="checkbox" name="filter" />
+                        <span class="check__mark"></span>
+                        <span class="check__txt">Жилищное строительство</span>
+                      </label>
+                      <label class="check__item">
+                        <input type="checkbox" name="filter" />
+                        <span class="check__mark"></span>
+                        <span class="check__txt">Сельское хозяйство</span>
+                      </label>
+                      <label class="check__item">
+                        <input type="checkbox" name="filter" />
+                        <span class="check__mark"></span>
+                        <span class="check__txt">Промышленное назначение</span>
+                      </label>
+                      <label class="check__item">
+                        <input type="checkbox" name="filter" />
+                        <span class="check__mark"></span>
+                        <span class="check__txt">Жилищное строительство</span>
+                      </label>
+                    </div>
+                    <p class="filter__mote"><a href="#">Посмотреть все</a></p>
+                  </div>
+                </div>
+                <div class="filter__item">
+                  <p class="filter__title">регион</p>
+                  <div class="filter__body">
+                    <div class="check">
+                      <label class="check__item">
+                        <input type="checkbox" name="filter" />
+                        <span class="check__mark"></span>
+                        <span class="check__txt">Регион 1</span>
+                      </label>
+                      <label class="check__item">
+                        <input type="checkbox" name="filter" />
+                        <span class="check__mark"></span>
+                        <span class="check__txt">Регион 2</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__item filter__item--open">
+                  <p class="filter__title">площадь, га</p>
+                  <div class="filter__body" style="display: block;">
+                    <div class="range filter__range">
+                      <div class="range__input">
+                          <input type="text" class="sidebar-range-slider-js" value="" />
+                      </div>
+                      <div class="range__fields fx fx-between">
+                        <input type="text" id="fil1" maxlength="10" class="inp js-from" value="30" />
+                        <input type="text" id="fil2" maxlength="10" class="inp js-to" value="580" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__item filter__item--open">
+                  <p class="filter__title">Цена, руб.</p>
+                  <div class="filter__body" style="display: block;">
+                    <div class="range filter__range">
+                      <div class="range__input">
+                          <input type="text" class="sidebar-range-slider-js1" value="" />
+                      </div>
+                      <div class="range__fields fx fx-between">
+                        <input type="text" id="fil3" maxlength="10" class="inp js-from1" value="1 900 000" />
+                        <input type="text" id="fil4" maxlength="10" class="inp js-to1" value="2 900 000" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Col -->
+
+            <div class="col-9">
+              <div class="catalog__box">
+                <div id="map" class="map"></div>
+                <div class="catalog__panel fx fx-end align-center">
+                  <div class="form__field form__field--border sorting">
+                    <select>
+                      <option>Сортировка</option>
+                      <option>Сортировка 1</option>
+                    </select>
+                  </div>
+                  <div class="mapping fx">
+                    <button class="mapping__item mapping__item--tile"></button>
+                    <button class="mapping__item mapping__item--row mapping__item--active"></button>
+                  </div>
+                  <button class="filter-open">
+                    Фильтр
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1000 1000">
+                      <path d="M613.5,990c-16.6,0-30.1-13.5-30.1-30V467.1c0-8,3.2-15.7,8.8-21.3c60.3-60,133.2-130.5,191.8-187.1c47.4-45.9,88.4-85.5,97.1-94.9c10.1-11,16.4-26.6,16.4-40.7c0-29.2-23.7-52.9-52.9-52.9H155.3c-29.2,0-52.9,23.7-52.9,52.9c0,13.4,6.2,26.7,19.1,40.8c17.6,19.3,116.8,119.5,279.3,282c5.6,5.6,8.8,13.3,8.8,21.2v296.5c0,16.6-13.5,30-30.1,30c-16.6,0-30.1-13.5-30.1-30V479.5C235.7,365.7,99.8,229.2,77.1,204.3C54,179,42.3,151.7,42.3,123c0-62.3,50.7-113,113-113h689.4c62.3,0,113,50.7,113,113c0,29-12.1,59.4-32.3,81.4c-9.9,10.7-47.5,47.1-99.6,97.4c-55.6,53.7-124.1,120-182.3,177.7V960C643.5,976.5,630.1,990,613.5,990z"/>
+                    </svg>
+                  </button>
+                </div>
+                <div class="row fx fx-wrap catalog__items catalog__items--rows">
+
+                  <!-- Col -->
+
+                  <div class="col-4">
+                    <div class="catalog__item">
+                      <div class="swiper swiper-container catalog__sl">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                        </div>
+                        <div class="swiper-button swiper-button-next"></div>
+                        <div class="swiper-button swiper-button-prev"></div>
+                      </div>
+                      <div class="catalog__naming">
+                        <h3 class="catalog__name"><a href="#">Помещение с дизайнерским ремонтом</a></h3>
+                        <p class="catalog__type"><a href="#">Коммерческая недвижимость</a></p>
+                      </div>
+                      <div class="catalog__info">
+                        <div class="catalog__infoItem">
+                          <i class="catalog__infoIcon catalog__infoIcon--point"></i>
+                          <p class="catalog__infoTxt">г. Геленджик, ул. Крымская, 21</p>
+                        </div>
+                        <div class="catalog__infoItem">
+                          <i class="catalog__infoIcon catalog__infoIcon--square"></i>
+                          <p class="catalog__infoTxt">50 м<sup>2</sup></p>
+                        </div>
+                      </div>
+                      <p class="catalog__id"><a href="#">ID 786К90</a></p>
+                      <div class="catalog__price">
+                        <a href="#" class="catalog__priceItem">
+                          <p class="catalog__priceTitle">покупка</p>
+                          <div class="catalog__priceGroup">
+                            <span class="catalog__priceOk">1 300 000 <sup>руб.</sup></span>
+                            <span class="catalog__priceNo">1 600 000 руб.</span>
+                          </div>
+                        </a>
+                        <a href="#" class="catalog__priceItem">
+                          <p class="catalog__priceTitle">аренда</p>
+                          <div class="catalog__priceGroup">
+                            <span class="catalog__priceOk">100 000 <sup>руб./мес.</sup></span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Col -->
+
+                  <div class="col-4">
+                    <div class="catalog__item">
+                      <div class="swiper swiper-container catalog__sl">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                        </div>
+                        <div class="swiper-button swiper-button-next"></div>
+                        <div class="swiper-button swiper-button-prev"></div>
+                      </div>
+                      <div class="catalog__naming">
+                        <h3 class="catalog__name"><a href="#">Помещение с дизайнерским ремонтом</a></h3>
+                        <p class="catalog__type"><a href="#">Коммерческая недвижимость</a></p>
+                      </div>
+                      <div class="catalog__info">
+                        <div class="catalog__infoItem">
+                          <i class="catalog__infoIcon catalog__infoIcon--point"></i>
+                          <p class="catalog__infoTxt">г. Геленджик, ул. Крымская, 21</p>
+                        </div>
+                        <div class="catalog__infoItem">
+                          <i class="catalog__infoIcon catalog__infoIcon--square"></i>
+                          <p class="catalog__infoTxt">50 м<sup>2</sup></p>
+                        </div>
+                      </div>
+                      <p class="catalog__id"><a href="#">ID 786К90</a></p>
+                      <div class="catalog__price">
+                        <a href="#" class="catalog__priceItem">
+                          <p class="catalog__priceTitle">покупка</p>
+                          <div class="catalog__priceGroup">
+                            <span class="catalog__priceOk">1 300 000 <sup>руб.</sup></span>
+                            <span class="catalog__priceNo">1 600 000 руб.</span>
+                          </div>
+                        </a>
+                        <a href="#" class="catalog__priceItem">
+                          <p class="catalog__priceTitle">аренда</p>
+                          <div class="catalog__priceGroup">
+                            <span class="catalog__priceOk">100 000 <sup>руб./мес.</sup></span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Col -->
+
+                  <div class="col-4">
+                    <div class="catalog__item">
+                      <div class="swiper swiper-container catalog__sl">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                        </div>
+                        <div class="swiper-button swiper-button-next"></div>
+                        <div class="swiper-button swiper-button-prev"></div>
+                      </div>
+                      <div class="catalog__naming">
+                        <h3 class="catalog__name"><a href="#">Помещение с дизайнерским ремонтом</a></h3>
+                        <p class="catalog__type"><a href="#">Коммерческая недвижимость</a></p>
+                      </div>
+                      <div class="catalog__info">
+                        <div class="catalog__infoItem">
+                          <i class="catalog__infoIcon catalog__infoIcon--point"></i>
+                          <p class="catalog__infoTxt">г. Геленджик, ул. Крымская, 21</p>
+                        </div>
+                        <div class="catalog__infoItem">
+                          <i class="catalog__infoIcon catalog__infoIcon--square"></i>
+                          <p class="catalog__infoTxt">50 м<sup>2</sup></p>
+                        </div>
+                      </div>
+                      <p class="catalog__id"><a href="#">ID 786К90</a></p>
+                      <div class="catalog__price">
+                        <a href="#" class="catalog__priceItem">
+                          <p class="catalog__priceTitle">покупка</p>
+                          <div class="catalog__priceGroup">
+                            <span class="catalog__priceOk">1 300 000 <sup>руб.</sup></span>
+                            <span class="catalog__priceNo">1 600 000 руб.</span>
+                          </div>
+                        </a>
+                        <a href="#" class="catalog__priceItem">
+                          <p class="catalog__priceTitle">аренда</p>
+                          <div class="catalog__priceGroup">
+                            <span class="catalog__priceOk">100 000 <sup>руб./мес.</sup></span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Col -->
+
+                  <div class="col-4">
+                    <div class="catalog__item">
+                      <div class="swiper swiper-container catalog__sl">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                        </div>
+                        <div class="swiper-button swiper-button-next"></div>
+                        <div class="swiper-button swiper-button-prev"></div>
+                      </div>
+                      <div class="catalog__naming">
+                        <h3 class="catalog__name"><a href="#">Помещение с дизайнерским ремонтом</a></h3>
+                        <p class="catalog__type"><a href="#">Коммерческая недвижимость</a></p>
+                      </div>
+                      <div class="catalog__info">
+                        <div class="catalog__infoItem">
+                          <i class="catalog__infoIcon catalog__infoIcon--point"></i>
+                          <p class="catalog__infoTxt">г. Геленджик, ул. Крымская, 21</p>
+                        </div>
+                        <div class="catalog__infoItem">
+                          <i class="catalog__infoIcon catalog__infoIcon--square"></i>
+                          <p class="catalog__infoTxt">50 м<sup>2</sup></p>
+                        </div>
+                      </div>
+                      <p class="catalog__id"><a href="#">ID 786К90</a></p>
+                      <div class="catalog__price">
+                        <a href="#" class="catalog__priceItem">
+                          <p class="catalog__priceTitle">покупка</p>
+                          <div class="catalog__priceGroup">
+                            <span class="catalog__priceOk">1 300 000 <sup>руб.</sup></span>
+                            <span class="catalog__priceNo">1 600 000 руб.</span>
+                          </div>
+                        </a>
+                        <a href="#" class="catalog__priceItem">
+                          <p class="catalog__priceTitle">аренда</p>
+                          <div class="catalog__priceGroup">
+                            <span class="catalog__priceOk">100 000 <sup>руб./мес.</sup></span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Col -->
+
+                  <div class="col-4">
+                    <div class="catalog__item">
+                      <div class="swiper swiper-container catalog__sl">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                        </div>
+                        <div class="swiper-button swiper-button-next"></div>
+                        <div class="swiper-button swiper-button-prev"></div>
+                      </div>
+                      <div class="catalog__naming">
+                        <h3 class="catalog__name"><a href="#">Помещение с дизайнерским ремонтом</a></h3>
+                        <p class="catalog__type"><a href="#">Коммерческая недвижимость</a></p>
+                      </div>
+                      <div class="catalog__info">
+                        <div class="catalog__infoItem">
+                          <i class="catalog__infoIcon catalog__infoIcon--point"></i>
+                          <p class="catalog__infoTxt">г. Геленджик, ул. Крымская, 21</p>
+                        </div>
+                        <div class="catalog__infoItem">
+                          <i class="catalog__infoIcon catalog__infoIcon--square"></i>
+                          <p class="catalog__infoTxt">50 м<sup>2</sup></p>
+                        </div>
+                      </div>
+                      <p class="catalog__id"><a href="#">ID 786К90</a></p>
+                      <div class="catalog__price">
+                        <a href="#" class="catalog__priceItem">
+                          <p class="catalog__priceTitle">покупка</p>
+                          <div class="catalog__priceGroup">
+                            <span class="catalog__priceOk">1 300 000 <sup>руб.</sup></span>
+                            <span class="catalog__priceNo">1 600 000 руб.</span>
+                          </div>
+                        </a>
+                        <a href="#" class="catalog__priceItem">
+                          <p class="catalog__priceTitle">аренда</p>
+                          <div class="catalog__priceGroup">
+                            <span class="catalog__priceOk">100 000 <sup>руб./мес.</sup></span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Col -->
+
+                  <div class="col-4">
+                    <div class="catalog__item">
+                      <div class="swiper swiper-container catalog__sl">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                          <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                        </div>
+                        <div class="swiper-button swiper-button-next"></div>
+                        <div class="swiper-button swiper-button-prev"></div>
+                      </div>
+                      <div class="catalog__naming">
+                        <h3 class="catalog__name"><a href="#">Помещение с дизайнерским ремонтом</a></h3>
+                        <p class="catalog__type"><a href="#">Коммерческая недвижимость</a></p>
+                      </div>
+                      <div class="catalog__info">
+                        <div class="catalog__infoItem">
+                          <i class="catalog__infoIcon catalog__infoIcon--point"></i>
+                          <p class="catalog__infoTxt">г. Геленджик, ул. Крымская, 21</p>
+                        </div>
+                        <div class="catalog__infoItem">
+                          <i class="catalog__infoIcon catalog__infoIcon--square"></i>
+                          <p class="catalog__infoTxt">50 м<sup>2</sup></p>
+                        </div>
+                      </div>
+                      <p class="catalog__id"><a href="#">ID 786К90</a></p>
+                      <div class="catalog__price">
+                        <a href="#" class="catalog__priceItem">
+                          <p class="catalog__priceTitle">покупка</p>
+                          <div class="catalog__priceGroup">
+                            <span class="catalog__priceOk">1 300 000 <sup>руб.</sup></span>
+                            <span class="catalog__priceNo">1 600 000 руб.</span>
+                          </div>
+                        </a>
+                        <a href="#" class="catalog__priceItem">
+                          <p class="catalog__priceTitle">аренда</p>
+                          <div class="catalog__priceGroup">
+                            <span class="catalog__priceOk">100 000 <sup>руб./мес.</sup></span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <nav class="pagination">
+                  <ul class="pagination__list flex-center">
+                    <li class="pagination__item pagination__item--prev">
+                      <a class="pagination__arrow pagination__arrow--prev" href="#"></a>
+                    </li>
+                    <li class="pagination__item">
+                      <a class="pagination__link pagination__link--active" href="#">1</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a class="pagination__link" href="#">2</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a class="pagination__link" href="#">3</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a class="pagination__link" href="#">4</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a class="pagination__link" href="#">5</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a class="pagination__link" href="#">...</a>
+                    </li>
+                    <li class="pagination__item">
+                      <a class="pagination__link" href="#">14</a>
+                    </li>
+                    <li class="pagination__item pagination__item--next">
+                      <a class="pagination__arrow pagination__arrow--next" href="#"></a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- Viewed -->
+
+      <section class="viewed">
+        <div class="container">
+
+          <!-- Title -->
+
+          <div class="title title--line">
+            <h3 class="title__h3">Недавно просмотренные</h3>
+          </div>
+
+          <!-- Sl -->
+
+          <div class="swiper swiper-container viewed__sl sl-dots">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="catalog__item">
+                  <div class="swiper swiper-container catalog__sl">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                    </div>
+                    <div class="swiper-button swiper-button-next"></div>
+                    <div class="swiper-button swiper-button-prev"></div>
+                  </div>
+                  <div class="catalog__naming">
+                    <h3 class="catalog__name"><a href="#">Помещение с дизайнерским ремонтом</a></h3>
+                    <p class="catalog__type"><a href="#">Коммерческая недвижимость</a></p>
+                  </div>
+                  <div class="catalog__info">
+                    <div class="catalog__infoItem">
+                      <i class="catalog__infoIcon catalog__infoIcon--point"></i>
+                      <p class="catalog__infoTxt">г. Геленджик, ул. Крымская, 21</p>
+                    </div>
+                    <div class="catalog__infoItem">
+                      <i class="catalog__infoIcon catalog__infoIcon--square"></i>
+                      <p class="catalog__infoTxt">50 м<sup>2</sup></p>
+                    </div>
+                  </div>
+                  <p class="catalog__id"><a href="#">ID 786К90</a></p>
+                  <div class="catalog__price">
+                    <a href="#" class="catalog__priceItem">
+                      <p class="catalog__priceTitle">покупка</p>
+                      <div class="catalog__priceGroup">
+                        <span class="catalog__priceOk">1 300 000 <sup>руб.</sup></span>
+                        <span class="catalog__priceNo">1 600 000 руб.</span>
+                      </div>
+                    </a>
+                    <a href="#" class="catalog__priceItem">
+                      <p class="catalog__priceTitle">аренда</p>
+                      <div class="catalog__priceGroup">
+                        <span class="catalog__priceOk">100 000 <sup>руб./мес.</sup></span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="catalog__item">
+                  <div class="swiper swiper-container catalog__sl">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                    </div>
+                    <div class="swiper-button swiper-button-next"></div>
+                    <div class="swiper-button swiper-button-prev"></div>
+                  </div>
+                  <div class="catalog__naming">
+                    <h3 class="catalog__name"><a href="#">Помещение с дизайнерским ремонтом</a></h3>
+                    <p class="catalog__type"><a href="#">Коммерческая недвижимость</a></p>
+                  </div>
+                  <div class="catalog__info">
+                    <div class="catalog__infoItem">
+                      <i class="catalog__infoIcon catalog__infoIcon--point"></i>
+                      <p class="catalog__infoTxt">г. Геленджик, ул. Крымская, 21</p>
+                    </div>
+                    <div class="catalog__infoItem">
+                      <i class="catalog__infoIcon catalog__infoIcon--square"></i>
+                      <p class="catalog__infoTxt">50 м<sup>2</sup></p>
+                    </div>
+                  </div>
+                  <p class="catalog__id"><a href="#">ID 786К90</a></p>
+                  <div class="catalog__price">
+                    <a href="#" class="catalog__priceItem">
+                      <p class="catalog__priceTitle">покупка</p>
+                      <div class="catalog__priceGroup">
+                        <span class="catalog__priceOk">1 300 000 <sup>руб.</sup></span>
+                        <span class="catalog__priceNo">1 600 000 руб.</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="catalog__item">
+                  <div class="swiper swiper-container catalog__sl">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                    </div>
+                    <div class="swiper-button swiper-button-next"></div>
+                    <div class="swiper-button swiper-button-prev"></div>
+                  </div>
+                  <div class="catalog__naming">
+                    <h3 class="catalog__name"><a href="#">Помещение с дизайнерским ремонтом</a></h3>
+                    <p class="catalog__type"><a href="#">Коммерческая недвижимость</a></p>
+                  </div>
+                  <div class="catalog__info">
+                    <div class="catalog__infoItem">
+                      <i class="catalog__infoIcon catalog__infoIcon--point"></i>
+                      <p class="catalog__infoTxt">г. Геленджик, ул. Крымская, 21</p>
+                    </div>
+                    <div class="catalog__infoItem">
+                      <i class="catalog__infoIcon catalog__infoIcon--square"></i>
+                      <p class="catalog__infoTxt">50 м<sup>2</sup></p>
+                    </div>
+                  </div>
+                  <p class="catalog__id"><a href="#">ID 786К90</a></p>
+                  <div class="catalog__price">
+                    <a href="#" class="catalog__priceItem">
+                      <p class="catalog__priceTitle">покупка</p>
+                      <div class="catalog__priceGroup">
+                        <span class="catalog__priceOk">1 300 000 <sup>руб.</sup></span>
+                        <span class="catalog__priceNo">1 600 000 руб.</span>
+                      </div>
+                    </a>
+                    <a href="#" class="catalog__priceItem">
+                      <p class="catalog__priceTitle">аренда</p>
+                      <div class="catalog__priceGroup">
+                        <span class="catalog__priceOk">100 000 <sup>руб./мес.</sup></span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="catalog__item">
+                  <div class="swiper swiper-container catalog__sl">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                    </div>
+                    <div class="swiper-button swiper-button-next"></div>
+                    <div class="swiper-button swiper-button-prev"></div>
+                  </div>
+                  <div class="catalog__naming">
+                    <h3 class="catalog__name"><a href="#">Помещение с дизайнерским ремонтом</a></h3>
+                    <p class="catalog__type"><a href="#">Коммерческая недвижимость</a></p>
+                  </div>
+                  <div class="catalog__info">
+                    <div class="catalog__infoItem">
+                      <i class="catalog__infoIcon catalog__infoIcon--point"></i>
+                      <p class="catalog__infoTxt">г. Геленджик, ул. Крымская, 21</p>
+                    </div>
+                    <div class="catalog__infoItem">
+                      <i class="catalog__infoIcon catalog__infoIcon--square"></i>
+                      <p class="catalog__infoTxt">50 м<sup>2</sup></p>
+                    </div>
+                  </div>
+                  <p class="catalog__id"><a href="#">ID 786К90</a></p>
+                  <div class="catalog__price">
+                    <a href="#" class="catalog__priceItem">
+                      <p class="catalog__priceTitle">покупка</p>
+                      <div class="catalog__priceGroup">
+                        <span class="catalog__priceOk">1 300 000 <sup>руб.</sup></span>
+                        <span class="catalog__priceNo">1 600 000 руб.</span>
+                      </div>
+                    </a>
+                    <a href="#" class="catalog__priceItem">
+                      <p class="catalog__priceTitle">аренда</p>
+                      <div class="catalog__priceGroup">
+                        <span class="catalog__priceOk">100 000 <sup>руб./мес.</sup></span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="catalog__item">
+                  <div class="swiper swiper-container catalog__sl">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                    </div>
+                    <div class="swiper-button swiper-button-next"></div>
+                    <div class="swiper-button swiper-button-prev"></div>
+                  </div>
+                  <div class="catalog__naming">
+                    <h3 class="catalog__name"><a href="#">Помещение с дизайнерским ремонтом</a></h3>
+                    <p class="catalog__type"><a href="#">Коммерческая недвижимость</a></p>
+                  </div>
+                  <div class="catalog__info">
+                    <div class="catalog__infoItem">
+                      <i class="catalog__infoIcon catalog__infoIcon--point"></i>
+                      <p class="catalog__infoTxt">г. Геленджик, ул. Крымская, 21</p>
+                    </div>
+                    <div class="catalog__infoItem">
+                      <i class="catalog__infoIcon catalog__infoIcon--square"></i>
+                      <p class="catalog__infoTxt">50 м<sup>2</sup></p>
+                    </div>
+                  </div>
+                  <p class="catalog__id"><a href="#">ID 786К90</a></p>
+                  <div class="catalog__price">
+                    <a href="#" class="catalog__priceItem">
+                      <p class="catalog__priceTitle">покупка</p>
+                      <div class="catalog__priceGroup">
+                        <span class="catalog__priceOk">1 300 000 <sup>руб.</sup></span>
+                        <span class="catalog__priceNo">1 600 000 руб.</span>
+                      </div>
+                    </a>
+                    <a href="#" class="catalog__priceItem">
+                      <p class="catalog__priceTitle">аренда</p>
+                      <div class="catalog__priceGroup">
+                        <span class="catalog__priceOk">100 000 <sup>руб./мес.</sup></span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="catalog__item">
+                  <div class="swiper swiper-container catalog__sl">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-1.png" alt="Фото" /></div>
+                      <div class="swiper-slide"><img src="img/other/investment-2.png" alt="Фото" /></div>
+                    </div>
+                    <div class="swiper-button swiper-button-next"></div>
+                    <div class="swiper-button swiper-button-prev"></div>
+                  </div>
+                  <div class="catalog__naming">
+                    <h3 class="catalog__name"><a href="#">Помещение с дизайнерским ремонтом</a></h3>
+                    <p class="catalog__type"><a href="#">Коммерческая недвижимость</a></p>
+                  </div>
+                  <div class="catalog__info">
+                    <div class="catalog__infoItem">
+                      <i class="catalog__infoIcon catalog__infoIcon--point"></i>
+                      <p class="catalog__infoTxt">г. Геленджик, ул. Крымская, 21</p>
+                    </div>
+                    <div class="catalog__infoItem">
+                      <i class="catalog__infoIcon catalog__infoIcon--square"></i>
+                      <p class="catalog__infoTxt">50 м<sup>2</sup></p>
+                    </div>
+                  </div>
+                  <p class="catalog__id"><a href="#">ID 786К90</a></p>
+                  <div class="catalog__price">
+                    <a href="#" class="catalog__priceItem">
+                      <p class="catalog__priceTitle">покупка</p>
+                      <div class="catalog__priceGroup">
+                        <span class="catalog__priceOk">1 300 000 <sup>руб.</sup></span>
+                        <span class="catalog__priceNo">1 600 000 руб.</span>
+                      </div>
+                    </a>
+                    <a href="#" class="catalog__priceItem">
+                      <p class="catalog__priceTitle">аренда</p>
+                      <div class="catalog__priceGroup">
+                        <span class="catalog__priceOk">100 000 <sup>руб./мес.</sup></span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer footer--interior">
+      <div class="container">
+        <i class="footer__line"></i>
+        <div class="row fx fx-wrap">
+          
+          <!-- Col -->
+
+          <div class="col-3">
+            <div class="footer__item">
+              <p class="footer__title">РИК, региональная <br />инвестиционная компания</p>
+              <ul class="footer__nav">
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Col -->
+
+          <div class="col-3">
+            <div class="footer__item">
+              <p class="footer__title footer__title--line">Контакты</p>
+              <ul class="footer__cont">
+                <li><i class="footer__icon" style="background: url(img/svg/i-address.svg) center/24px no-repeat;"></i>Геленджик, ул. Приморская 30а</li>
+                <li>
+                  <a href="tel:88005553535"><i class="footer__icon" style="background: url(img/svg/i-tel.svg) center/24px no-repeat;"></i>8-800-555-35-35</a>
+                  <a href="https://api.whatsapp.com/send?phone=15551234567" class="footer__wh"><i class="footer__icon" style="background: url(img/svg/i-wh.svg) center/24px no-repeat;"></i></a>
+                </li>
+                <li><a href="mailto:info@mail.ru"><i class="footer__icon" style="background: url(img/svg/i-email.svg) center/24px no-repeat;"></i>info@mail.ru</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Col -->
+
+          <div class="col-3">
+            <div class="footer__item">
+              <p class="footer__title footer__title--line">Мы в социальных сетях</p>
+              <ul class="social">
+                <li><a href="#"><i class="footer__icon" style="background: url(img/svg/i-yu.svg) center/24px no-repeat;"></i>Youtube</a></li>
+                <li><a href="#"><i class="footer__icon" style="background: url(img/svg/i-in.svg) center/24px no-repeat;"></i>Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Col -->
+
+          <div class="col-3">
+            <div class="footer__item">
+              <p class="footer__title footer__title--line">Юридическая информация</p>
+              <ul class="footer__link">
+                <li><a href="#">Соглашение об обработке персональных данных</a></li>
+                <li><a href="#">Договор-оферта</a></li>
+              </ul>
+              <p class="copyrigth">© Все права защищены, 2021</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Modal -->
+
+  <div class="modal modal--order">
+    <div class="fullScreen flex-center">
+      <div class="modal__box">
+        <button class="modal__close"></button>
+        <div class="title title--line text-center">
+          <h3 class="title__h3">Оставить заявку</h3>
+        </div>
+        <form action="#" class="form modal__form">
+          <label class="form__field form__field--borderBottom"><input type="text" placeholder="Имя" /></label>
+          <label class="form__field form__field--borderBottom"><input type="text" class="phone-mask" placeholder="Телефон" /></label>
+          <label class="form__field form__field--borderBottom"><input type="text" placeholder="E-mail" /></label>
+          <button class="btn btn--blue">Отправить</button>
+        </form>
+        <p class="subform text-center">Нажимая «Отправить», принимаю условия <a href="#">Пользовательского соглашения</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+
+  <div class="modal modal--bell">
+    <div class="fullScreen flex-center">
+      <div class="modal__box">
+        <button class="modal__close"></button>
+        <div class="title title--line text-center">
+          <h3 class="title__h3">Заказать звонок</h3>
+        </div>
+        <form action="#" class="form modal__form">
+          <label class="form__field form__field--borderBottom"><input type="text" placeholder="Имя" /></label>
+          <label class="form__field form__field--borderBottom"><input type="text" class="phone-mask" placeholder="Телефон" /></label>
+          <label class="form__field form__field--borderBottom"><input type="text" placeholder="E-mail" /></label>
+          <button class="btn btn--blue">Отправить</button>
+        </form>
+        <p class="subform text-center">Нажимая «Отправить», принимаю условия <a href="#">Пользовательского соглашения</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!--[if lt IE 9]>
+  <script src="libs/html5shiv/es5-shim.min.js"></script>
+  <script src="libs/html5shiv/html5shiv.min.js"></script>
+  <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+  <script src="libs/respond/respond.min.js"></script>
+  <![endif]-->
+  <script src="libs/jquery/jquery-3.4.0.min.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+  <script src="libs/maskedinput/jquery.maskedinput.min.js"></script>
+  <script src="libs/nice-select/jquery.nice-select.min.js"></script>
+  <script src="libs/swiper/swiper.min.js"></script>
+  <script src="libs/ionRangeSlider/ion.rangeSlider.js"></script>
+  <script src="libs/fancybox/fancybox.js"></script>
+  <script src="js/ion.rangeSlider.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+  <!-- Google Analytics counter --><!-- /Google Analytics counter -->
+
+  <script>
+    
+    // Map
+    ymaps.ready(init);
+    var myMap,
+        myPlacemark1,
+        myPlacemark2,
+        myPlacemark3;
+
+    function init(){ 
+      myMap = new ymaps.Map("map", {
+        center: [55.75143203783009,37.618864226623515],
+        zoom: 12,
+        controls: ['zoomControl']
+      });
+
+      myPoint = new ymaps.GeoObjectCollection({}, {
+        iconLayout: 'default#image',
+        iconImageHref: 'img/svg/i-point.svg',
+        iconImageSize: [32, 32],
+        iconImageOffset: [-13, -32]
+      });
+      
+      myPlacemark1 = new ymaps.Placemark([55.75143203783009,37.618864226623515], {
+        balloonContentBody: '<div class="map__info"><p class="map__img"><img src="img/other/investment-1.png" alt="Фото"></p><div class="map__body"><p class="map__txt">Помещение с дизайнерским ремонтом</p><p class="map__square"><i class="catalog__infoIcon catalog__infoIcon--square"></i>50 м<sup>2</sup></p><div class="catalog__price"><a href="#" class="catalog__priceItem"><p class="catalog__priceTitle">покупка</p><div class="catalog__priceGroup"><span class="catalog__priceOk">1 300 000 <sup>руб.</sup></span><span class="catalog__priceNo">1 600 000 руб.</span></div></a><a href="#" class="catalog__priceItem"><p class="catalog__priceTitle">аренда</p><div class="catalog__priceGroup"><span class="catalog__priceOk">100 000 <sup>руб./мес.</sup></span></div></a></div><p class="map__btn"><a href="#" class="btn btn--blue">Подробнее</a></p></div></div>'
+      });
+
+      myPlacemark2 = new ymaps.Placemark([55.72954124804436,37.49895339040371], {
+        balloonContentBody: '<div class="map__info"><p class="map__img"><img src="img/other/investment-1.png" alt="Фото"></p><div class="map__body"><p class="map__txt">Помещение с дизайнерским ремонтом</p><p class="map__square"><i class="catalog__infoIcon catalog__infoIcon--square"></i>50 м<sup>2</sup></p><div class="catalog__price"><a href="#" class="catalog__priceItem"><p class="catalog__priceTitle">покупка</p><div class="catalog__priceGroup"><span class="catalog__priceOk">1 300 000 <sup>руб.</sup></span><span class="catalog__priceNo">1 600 000 руб.</span></div></a><a href="#" class="catalog__priceItem"><p class="catalog__priceTitle">аренда</p><div class="catalog__priceGroup"><span class="catalog__priceOk">100 000 <sup>руб./мес.</sup></span></div></a></div><p class="map__btn"><a href="#" class="btn btn--blue">Подробнее</a></p></div></div>'
+      });
+
+      myPlacemark3 = new ymaps.Placemark([55.74005012403942,37.66735320119473], {
+        balloonContentBody: '<div class="map__info"><p class="map__img"><img src="img/other/investment-1.png" alt="Фото"></p><div class="map__body"><p class="map__txt">Помещение с дизайнерским ремонтом</p><p class="map__square"><i class="catalog__infoIcon catalog__infoIcon--square"></i>50 м<sup>2</sup></p><div class="catalog__price"><a href="#" class="catalog__priceItem"><p class="catalog__priceTitle">покупка</p><div class="catalog__priceGroup"><span class="catalog__priceOk">1 300 000 <sup>руб.</sup></span><span class="catalog__priceNo">1 600 000 руб.</span></div></a><a href="#" class="catalog__priceItem"><p class="catalog__priceTitle">аренда</p><div class="catalog__priceGroup"><span class="catalog__priceOk">100 000 <sup>руб./мес.</sup></span></div></a></div><p class="map__btn"><a href="#" class="btn btn--blue">Подробнее</a></p></div></div>'
+      });
+
+
+      myPoint.add(myPlacemark1).add(myPlacemark2).add(myPlacemark3);
+      myMap.geoObjects.add(myPoint);
+      myMap.behaviors.disable([
+        'scrollZoom'
+      ]);
+
+      // if($(window).width() < 1025) {
+      //   myMap.behaviors.disable([
+      //     'drag',
+      //     'scrollZoom'
+      //   ]);
+      // };
+
+    };
+
+  </script>
+
+</body>
+</html>

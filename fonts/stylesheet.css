@@ -1,0 +1,57 @@
+/* Roboto */
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Bold.eot');
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+        url('Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Bold.woff') format('woff'),
+        url('Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium.eot');
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+        url('Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Medium.woff') format('woff'),
+        url('Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Light.eot');
+    src: local('Roboto Light'), local('Roboto-Light'),
+        url('Roboto-Light.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Light.woff') format('woff'),
+        url('Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Exo2 */
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    src: local('Exo 2 Light Condensed'), local('Exo2-LightCondensed'), url('exo2lightcondensed.woff2') format('woff2'), url('exo2lightcondensed.woff') format('woff'), url('exo2lightcondensed.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    src: local('Exo 2 Regular Condensed'), local('Exo2-RegularCondensed'), url('exo2regularcondensed.woff2') format('woff2'), url('exo2regularcondensed.woff') format('woff'), url('exo2regularcondensed.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    src: local('Exo 2 Medium Condensed'), local('Exo2-MediumCondensed'), url('exo2mediumcondensed.woff2') format('woff2'), url('exo2mediumcondensed.woff') format('woff'), url('exo2mediumcondensed.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    src: local('Exo 2 Semi Bold Condensed'), local('Exo2-SemiBoldCondensed'), url('exo2semiboldcondensed.woff2') format('woff2'), url('exo2semiboldcondensed.woff') format('woff'), url('exo2semiboldcondensed.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
